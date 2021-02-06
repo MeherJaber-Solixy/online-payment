@@ -28,9 +28,11 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.css",
+              "node_modules/ngx-toastr/toastr.css"
             ],
-            "scripts": []
+            "scripts": ["./node_modules/jquery/dist/jquery.js",              "./node_modules/bootstrap/dist/js/bootstrap.js"   ]
           },
           "configurations": {
             "production": {
@@ -124,5 +126,8 @@
       }
     }
   },
-  "defaultProject": "online-payement"
+  "defaultProject": "online-payement",
+  "cli": {
+    "analytics": "956063c5-74e3-4b24-ba96-ae547de1efc6"
+  }
 }
